@@ -5,11 +5,11 @@
     <classes>
 
         <class name="landingPage_ParentSignUpTestCases.TestCasesParentSignUp">
-    <!--        
+            
     		 <methods>
                 <include name ="enterExistingUserEmail"/>
             </methods>    
-    -->   
+     
         </class>
         
     </classes>

@@ -7,7 +7,7 @@
         <methods>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
-          <include name="enterBlankEmailAndPassword"/>
+          <include name="enterExistingUserEmail"/>
         </methods>
       </class> <!-- landingPage_ParentSignUpTestCases.TestCasesParentSignUp -->
     </classes>

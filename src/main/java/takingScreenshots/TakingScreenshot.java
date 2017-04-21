@@ -26,7 +26,7 @@ public WebDriver driver ;
 			TakesScreenshot photo=(TakesScreenshot)driver;
 			File source = photo.getScreenshotAs(OutputType.FILE);
 			
-			String dest = "./SplashmathScreenShots/" + FolderName+ "/" + imageName + ".png";
+			String dest = ".\\SplashmathScreenShots\\" + FolderName+ "\\" + imageName + ".png";
 			File destination = new File(dest);
 			
 			FileUtils.copyFile(source, destination);

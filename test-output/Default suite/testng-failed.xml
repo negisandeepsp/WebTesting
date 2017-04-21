@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="landingPage_ParentSignUpTestCases.TestCasesParentSignUp">
+        <methods>
+          <include name="enterInvalidUserEmailTypeSix"/>
+          <include name="enterBlankEmailOnly"/>
+          <include name="openBrowser"/>
+          <include name="enterInvalidUserEmailTypeEleven"/>
+          <include name="enterInvalidUserEmailTypeTen"/>
+          <include name="enterValidEmailAndPasswordTypeOne_smallLetters"/>
+          <include name="dashInEmailAddressField"/>
+          <include name="enterInvalidUserEmailTypeOne"/>
+          <include name="enterBlankPasswordOnly"/>
+          <include name="enterExistingUserEmail"/>
+          <include name="enterInvalidUserEmailTypeEight"/>
+          <include name="enterInvalidUserEmailTypeThree"/>
+          <include name="enterInvalidUserEmailTypeFour"/>
+          <include name="enterInvalidUserEmailTypeSeven"/>
+          <include name="enterInvalidUserEmailTypeTwo"/>
+          <include name="closeBrowser"/>
+          <include name="enterInvalidUserEmailTypeNine"/>
+          <include name="onlyDigitsinAddressInEmail"/>
+          <include name="enterBlankEmailAndPassword"/>
+          <include name="enterValidEmailAndPasswordTypeOne_capitalLetters"/>
+          <include name="enterInvalidUserEmailTypeFive"/>
+          <include name="enterSpaceInUserEmailAndPassword"/>
+          <include name="leadingUnderscoreInEmailAddressField"/>
+        </methods>
+      </class> <!-- landingPage_ParentSignUpTestCases.TestCasesParentSignUp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
